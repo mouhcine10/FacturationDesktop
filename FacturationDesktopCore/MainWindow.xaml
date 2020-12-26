@@ -1,0 +1,88 @@
+﻿<Window x:Class="FacturationDesktopCore.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FacturationDesktopCore"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" >
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="210" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+       
+        <Grid Grid.Column="0" >
+            <StackPanel>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="185" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="50" />
+
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <StackPanel Orientation="Vertical">
+                            <Image Width="150px" Height="120px" Source="/131818714_1825650334271228_4901377574570725405_n.jpg"> </Image>
+                            <Label>Bonjour: Mouhcine</Label>
+                            <Label>E-mail: Mouhcine585@gmail.com</Label>
+                            
+
+                        </StackPanel>
+
+                        
+                    </Grid>
+                    <Grid Grid.Row="1">
+
+                        <StackPanel Orientation="Horizontal">
+
+                            <Image Width="50px" ></Image> <Label Width="50px" >Home </Label>
+                            
+                        </StackPanel>
+
+                    </Grid>
+                    <Grid Grid.Row="2">
+
+                        <StackPanel Orientation="Horizontal">
+
+                            <Image Width="50px" ></Image>
+                            <Label Width="50px" >Devis</Label>
+
+                        </StackPanel>
+
+                    </Grid>
+                    <Grid Grid.Row="3">
+
+                        <StackPanel Orientation="Horizontal">
+
+                            <Image Width="50px" ></Image>
+                            <Label  >Factures</Label>
+
+                        </StackPanel>
+
+                    </Grid>
+                    <Grid Grid.Row="4" >
+
+                        <StackPanel Orientation="Horizontal" >
+
+                            <Image  Width="50px" ></Image>
+                            <TextBlock Style="{StaticResource TitleText}" >Produits</TextBlock>
+                             
+                        </StackPanel>
+
+                    </Grid>
+
+                </Grid>
+
+            </StackPanel>
+            
+            
+        </Grid>
+
+    </Grid>
+    
+</Window>

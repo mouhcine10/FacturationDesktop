@@ -1,0 +1,88 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="131818714_1825650334271228_4901377574570725405_n.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="Accessibility.dll">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>1</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>1ea4dbf0-3c3b-11cf-810c-00aa00389b71</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+    <COMReference Include="IISExt.dll">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>2a56ea30-afeb-11d1-9868-00a0c922e703</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+    <COMReference Include="Win32_TPMLib.dll">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>61e207a5-827c-42e9-adfa-165c6a745ee4</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+    <COMReference Include="VSTOEE90.dll">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>9</VersionMajor>
+      <Guid>e985809a-84a6-4f35-86d6-9b52119ab9d7</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+    <COMReference Include="IWshRuntimeLibrary.dll">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>f935dc20-1cf0-11d0-adb9-00c04fd58a0b</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+    <COMReference Include="UIAutomationClient.dll">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>944de083-8fb8-45cf-bcb7-c477acb2f897</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+    <COMReference Include="UIA.dll">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>930299ce-9965-4dec-b0f4-a54848d4b667</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+    <COMReference Include="UIAutomationBlockingCoreLib.dll">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>ea39b853-5769-4937-8ece-736de4f469bc</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="131818714_1825650334271228_4901377574570725405_n.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="imge\" />
+  </ItemGroup>
+
+</Project>

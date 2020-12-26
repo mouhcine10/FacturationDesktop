@@ -1,0 +1,137 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FacturationDesktopCore/1.0.0": {
+        "dependencies": {
+          "Interop.Accessibility": "1.1.0.0",
+          "Interop.IISExt": "1.0.0.0",
+          "Interop.Win32_TPMLib": "1.0.0.0",
+          "Interop.VSTOEE90": "9.0.0.0",
+          "Interop.IWshRuntimeLibrary": "1.0.0.0",
+          "Interop.UIAutomationClient": "1.0.0.0",
+          "Interop.UIA": "1.0.0.0",
+          "Interop.UIAutomationBlockingCoreLib": "1.0.0.0"
+        },
+        "runtime": {
+          "FacturationDesktopCore.dll": {}
+        }
+      },
+      "Interop.Accessibility/1.1.0.0": {
+        "runtime": {
+          "Interop.Accessibility.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Interop.IISExt/1.0.0.0": {
+        "runtime": {
+          "Interop.IISExt.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Interop.Win32_TPMLib/1.0.0.0": {
+        "runtime": {
+          "Interop.Win32_TPMLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Interop.VSTOEE90/9.0.0.0": {
+        "runtime": {
+          "Interop.VSTOEE90.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        }
+      },
+      "Interop.IWshRuntimeLibrary/1.0.0.0": {
+        "runtime": {
+          "Interop.IWshRuntimeLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Interop.UIAutomationClient/1.0.0.0": {
+        "runtime": {
+          "Interop.UIAutomationClient.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Interop.UIA/1.0.0.0": {
+        "runtime": {
+          "Interop.UIA.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Interop.UIAutomationBlockingCoreLib/1.0.0.0": {
+        "runtime": {
+          "Interop.UIAutomationBlockingCoreLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FacturationDesktopCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.Accessibility/1.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.IISExt/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.Win32_TPMLib/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.VSTOEE90/9.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.IWshRuntimeLibrary/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.UIAutomationClient/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.UIA/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.UIAutomationBlockingCoreLib/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
